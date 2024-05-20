@@ -29,6 +29,7 @@ pip install pandas
 
 Eu certamente já passei por isso inúmeras vezes, como uma geminiana apaixonada por séries e filmes eu precisava ajudar pessoas que assim como eu sofrem com esse problema 🤓.
 Por isso, eu criei meu próprio assistente virtual chamado Geminiflix para nos ajudar! Ele é o assistente perfeito para esses momentos de indecisão. Com Geminiflix ao seu lado, você nunca mais perderá tempo procurando o filme ideal.
+
 Basta descrever o que você está procurando, e Geminiflix irá encontrar as opções perfeitas para você. Adeus indecisão, olá entretenimento sem esforço com Geminiflix!
 
 # Interface web desenvolvida
