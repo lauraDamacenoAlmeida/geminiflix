@@ -32,7 +32,15 @@ Por isso, eu criei meu próprio assistente virtual chamado Geminiflix para nos a
 
 Basta descrever o que você está procurando, e Geminiflix irá encontrar as opções perfeitas para você. Adeus indecisão, olá entretenimento sem esforço com Geminiflix!
 
+# Conjunto de dados
+Para treinar a nossa IA precisamos ter uma base de conhecimento com as informações dos filmes e séries disponíveis. Então estou considerando a base de dados do [Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows) com as informações do catálogo da Netflix.
+
 # Interface web desenvolvida
 Logo após a construção lógica do funcionamento do GeminiFlix, explorei construir uma interface web utilizando Streamlit para deixar mais atrativo a interação com a IA
+
+![](https://github.com/lauraDamacenoAlmeida/geminiflix/blob/main/images/Interface%20web.png)
+
+[![Assista o video com a simulação da página web](https://youtu.be/vt5fpE0bzSY](https://github.com/lauraDamacenoAlmeida/geminiflix/blob/main/images/Design%20sem%20nome.mp4)
+
 
 
