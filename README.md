@@ -40,7 +40,3 @@ Logo após a construção lógica do funcionamento do GeminiFlix, explorei const
 
 ![](https://github.com/lauraDamacenoAlmeida/geminiflix/blob/main/images/Interface%20web.png)
 
-[![Assista o video com a simulação da página web](https://youtu.be/vt5fpE0bzSY](https://github.com/lauraDamacenoAlmeida/geminiflix/blob/main/images/Design%20sem%20nome.mp4)
-
-
-
