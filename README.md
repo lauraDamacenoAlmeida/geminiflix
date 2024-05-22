@@ -36,6 +36,30 @@ pip install pandas
 # Conjunto de dados
 Para treinar a nossa IA precisamos ter uma base de conhecimento com as informações dos filmes e séries disponíveis. Então estou considerando a base de dados do [Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows) com as informações do catálogo da Netflix.
 
+# Para excutar o notebook
+Atualmente o notebook está com o seguinte trecho de código:
+
+```
+# Import the Python SDK
+import google.generativeai as genai
+from google.colab import userdata # para evitar de vazar a chave
+
+api_key = userdata.get("SECRET_KEY") # está lá no campo "secrets", addnew secret
+GOOGLE_API_KEY= api_key
+genai.configure(api_key=GOOGLE_API_KEY)
+
+```
+Para você conseguir rodar localmente, é importante ajustar esse trecho para e colocar no lugar de "COLOQUE AQUI SUA API KEY" a sua API Key:
+
+```
+# Import the Python SDK
+import google.generativeai as genai
+
+GOOGLE_API_KEY= "COLOQUE AQUI SUA API KEY"
+genai.configure(api_key=GOOGLE_API_KEY)
+
+```
+
 # Interface web desenvolvida
 Logo após a construção lógica do funcionamento do GeminiFlix, explorei construir uma interface web utilizando Streamlit para deixar mais atrativo a interação com a IA
 
