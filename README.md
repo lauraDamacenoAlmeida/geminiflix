@@ -1,7 +1,15 @@
 # Geminiflix
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*WqK9zocvpZNIHPQmHtLNhg.png)
 
-Gemini é uma família de modelos de linguagem grandes multimodais (LLM) desenvolvidos pelo Google DeepMind. Anunciado em 6 de dezembro de 2023, posicionado como concorrente do GPT-4 da OpenAI.
+Gemini é uma família de modelos de linguagem grandes multimodais (LLM) desenvolvidos pelo Google DeepMind. Anunciado em 6 de dezembro de 2023, posicionado como concorrente do GPT-4 da OpenAI. Então decidi utilizar essa ferramenta potente para criar um recomendador com base na similaridade entre palavras, inclusive compartilhei mais detalhes no meu post no [Medium](https://medium.com/@lauradamaceno/geminiflix-utilizando-gemini-para-recomendar-filmes-e-séries-da-netflix-ccf079b014ca).
+
+# Objetivo do projeto
+
+Eu certamente já passei por isso inúmeras vezes, como uma geminiana apaixonada por séries e filmes eu precisava ajudar pessoas que assim como eu sofrem com esse problema 🤓.
+Por isso, eu criei meu próprio assistente virtual chamado Geminiflix para nos ajudar! Ele é o assistente perfeito para esses momentos de indecisão. Com Geminiflix ao seu lado, você nunca mais perderá tempo procurando o filme ideal.
+
+Basta descrever o que você está procurando, e Geminiflix irá encontrar as opções perfeitas para você. Adeus indecisão, olá entretenimento sem esforço com Geminiflix!
+
 
 # Requisitos
 1. [Python 3.6 ou maior](https://www.python.org/downloads/)
@@ -24,13 +32,6 @@ Por exemplo:
 ```
 pip install pandas
 ```
-
-# Objetivo do projeto
-
-Eu certamente já passei por isso inúmeras vezes, como uma geminiana apaixonada por séries e filmes eu precisava ajudar pessoas que assim como eu sofrem com esse problema 🤓.
-Por isso, eu criei meu próprio assistente virtual chamado Geminiflix para nos ajudar! Ele é o assistente perfeito para esses momentos de indecisão. Com Geminiflix ao seu lado, você nunca mais perderá tempo procurando o filme ideal.
-
-Basta descrever o que você está procurando, e Geminiflix irá encontrar as opções perfeitas para você. Adeus indecisão, olá entretenimento sem esforço com Geminiflix!
 
 # Conjunto de dados
 Para treinar a nossa IA precisamos ter uma base de conhecimento com as informações dos filmes e séries disponíveis. Então estou considerando a base de dados do [Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows) com as informações do catálogo da Netflix.
