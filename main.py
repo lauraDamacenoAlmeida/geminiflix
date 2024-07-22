@@ -7,7 +7,7 @@ import google.generativeai as genai
 from deep_translator import GoogleTranslator
 
 model = "models/embedding-001"
-GOOGLE_API_KEY= "AIzaSyCzb82DnEM0S4pQyZAJAHFXBI8wmFTxmsQ"
+GOOGLE_API_KEY= ""
 genai.configure(api_key=GOOGLE_API_KEY)
 
 
