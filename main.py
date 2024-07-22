@@ -7,8 +7,8 @@ import google.generativeai as genai
 from deep_translator import GoogleTranslator
 
 model = "models/embedding-001"
-GOOGLE_API_KEY= ""
-genai.configure(api_key=GOOGLE_API_KEY)
+YOUR_GOOGLE_API_KEY= ""
+genai.configure(api_key=YOUR_GOOGLE_API_KEY)
 
 
 def embed_fn(title, text):
