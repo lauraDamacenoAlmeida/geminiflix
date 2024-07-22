@@ -5,11 +5,17 @@ Gemini é uma família de modelos de linguagem grandes multimodais (LLM) desenvo
 
 # Objetivo do projeto
 
-Eu certamente já passei por isso inúmeras vezes, como uma geminiana apaixonada por séries e filmes eu precisava ajudar pessoas que assim como eu sofrem com esse problema 🤓.
-Por isso, eu criei meu próprio assistente virtual chamado Geminiflix para nos ajudar! Ele é o assistente perfeito para esses momentos de indecisão. Com Geminiflix ao seu lado, você nunca mais perderá tempo procurando o filme ideal.
+O GeminiFlix foi criado para ser um assistente virtual que através de uma entrada textual trazida pelo usuário, ele irá buscar um filme ou série que tem combinação com o solicitado através do uso de IA generativa. 
 
-Basta descrever o que você está procurando, e Geminiflix irá encontrar as opções perfeitas para você. Adeus indecisão, olá entretenimento sem esforço com Geminiflix!
+# Estrutura do projeto:
+1. Main.py : interface web feita com streamlit para interação com os usuários.
+2. netflix_titles.csv: conjunto de dados da netflix com o catélogo dos filmes e séries
+3. Geminiflix.ipynb: notebook com a criação do racional do sistema. Contém a exploração dos dados e primeiras interações com o assistente generativo
 
+# Tecnologias Google utilizadas:
+
+1. Gemini: para transformar texto em números para identificação de textos similares. E utilizar IA generativa para gerar um texto novo e amigável para o usuário.
+2. Google translator: para traduzir a solitação do usuário do português para o inglês.
 
 # Requisitos
 1. [Python 3.6 ou maior](https://www.python.org/downloads/)
